@@ -11,7 +11,7 @@ import { CartService } from './cart/cart.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  pageTitle = 'Acme Product Management';
+  pageTitle = 'Product Management/Shopping';
 
   cartService = inject(CartService);
 
